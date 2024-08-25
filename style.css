@@ -1,0 +1,36 @@
+body{
+    background-image: url('./NEW/2.png');
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    border: 2px #32ff6f solid;
+    width: 400px;
+    height: 450px;
+}
+.container img{
+    width: 390;
+    height: 390;
+}
+.container button{
+    border-radius: 10%;
+    background: gold;
+    width: 100px;
+    height: 60px;
+    font-size: 2rem;
+    color: #ff0000;
+}
+.border{
+    display: flex;
+    text-decoration: none;
+}
+#chat{
+    position: absolute;
+    text-align: right;
+    top:0;
+    right: 0;
+    font-size: 3rem;
+    color: #32ff6f;
+}
